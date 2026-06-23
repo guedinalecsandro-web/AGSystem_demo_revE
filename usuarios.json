@@ -1,0 +1,10 @@
+{
+    "admin": {
+        "nome": "Administrador",
+        "usuario": "admin",
+        "senha_hash": "0fb4bdebd9bbac4b56aa745ebfe88807$5760e7aef219a99b91b68ff91d11f147c9228dc30ff029af72fd964e02fec3e5",
+        "perfil": "Administrador",
+        "ativo": true,
+        "criado_em": "08/06/2026 18:19"
+    }
+}
