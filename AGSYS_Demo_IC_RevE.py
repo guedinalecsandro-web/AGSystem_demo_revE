@@ -129,7 +129,6 @@ def salvar_usuarios(usuarios: dict) -> None:
         encoding="utf-8",
     )
 
-
 def fazer_logout() -> None:
     for chave in ["autenticado", "usuario_logado", "perfil_logado", "nome_logado"]:
         st.session_state.pop(chave, None)
@@ -1079,7 +1078,6 @@ def preparar_dataframe_cronograma(df_entrada: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-
 def normalizar_tipos_editor_cronograma(df_entrada: pd.DataFrame) -> pd.DataFrame:
     """Garante tipos compatíveis com st.data_editor.
 
@@ -1339,8 +1337,7 @@ Dias para vencer/atraso: {dias if str(dias) not in ["<NA>", "nan", "NaT"] else "
 Favor avaliar a situação da atividade e atualizar o cronograma quando houver nova informação.
 
 Atenciosamente,
-Dashboard PMO - AGSolution
-"""
+Dashboard PMO
     return assunto, corpo
 
 
